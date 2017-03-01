@@ -68,8 +68,8 @@ public class AppianAlexaCardDeckSpeechlet implements Speechlet {
         if ("ShuffleDeck".equals(intentName)) {
             return shuffleDeck(intent, session);
         }
-        if ("DrawOneCard".equals(intentName)) {
-            return drawOneCard(intent, session);
+        if ("DealOneCard".equals(intentName)) {
+            return dealOneCard(intent, session);
         }
         else {
             throw new SpeechletException("Invalid Intent");
@@ -112,7 +112,7 @@ public class AppianAlexaCardDeckSpeechlet implements Speechlet {
         return getSpeechletResponse(speechText, repromptText, true);
     }
 
-    private SpeechletResponse drawOneCard(final Intent intent, final Session session) {
+    private SpeechletResponse dealOneCard(final Intent intent, final Session session) {
         Dealable deck = (Dealable)session.getAttribute(deckKey);
         Card card = deck.dealOneCard();
 

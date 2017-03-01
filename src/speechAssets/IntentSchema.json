@@ -7,7 +7,7 @@
       "intent": "ShuffleDeck"
     },
     {
-      "intent": "DrawOneCard"
+      "intent": "DealOneCard"
     }
   ]
 }
