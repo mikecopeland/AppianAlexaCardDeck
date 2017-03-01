@@ -1,0 +1,9 @@
+NewDeck use a new deck
+NewDeck new deck
+ShuffleDeck shuffle
+ShuffleDeck shuffle the deck
+ShuffleDeck shuffle deck
+ShuffleDeck shuffle the cards
+ShuffleDeck shuffle cards
+DealOneCard deal one card
+DealOneCard deal a card

@@ -1,0 +1,13 @@
+{
+  "intents": [
+    {
+      "intent": "NewDeck"
+    },
+    {
+      "intent": "ShuffleDeck"
+    },
+    {
+      "intent": "DrawOneCard"
+    }
+  ]
+}
